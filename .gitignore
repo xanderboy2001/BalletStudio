@@ -1,0 +1,33 @@
+# Ignore Blender backup and temp files
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore temp or backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore Sims 4 Studio temp files and exports
+*.txt
+*.log
+*.backup
+*.bak
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled packages (optional if you want to keep your .package in repo)
+# *.package
+
+# Ignore user-specific IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
